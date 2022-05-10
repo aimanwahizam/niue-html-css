@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flag {
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+}
+
+#germany {
+    display: row;
+}
+
+#black {
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#france {
+    display: flex;
+    justify-content: space-evenly;
+}
+#blue {
+    background-color: blue;
+    width: 33%;
+}
+
+#white {
+    background-color: white;
+    width: 33%;
+}
+
+#red-france {
+    background-color: red;
+    width: 33%;
+}
+
+#germany:hover #black {
+    background-color: red;
+}
+
+#germany:hover #red {
+    background-color: white;
+}
+
+#germany:hover #yellow {
+    background-color: green;
+}
+
+#france:hover #blue {
+    background-color: green;
+}
+
+#france:hover #red-france {
+    background-color: orange;
+}
